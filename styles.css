@@ -1,0 +1,332 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+/* Colors */
+/* Section-header */
+header {
+  height: 596px;
+  width: auto;
+  background-color: #87509c;
+}
+header .logo {
+  display: inline-block;
+  padding-top: 57px;
+  padding-left: 212px;
+  width: 117px;
+  height: 37px;
+}
+header .home-link {
+  margin-left: 483px;
+}
+header a {
+  color: #ffffff;
+  width: 416px;
+  height: 13px;
+  font-family: "Titillium Web";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header a:hover {
+  width: 76px;
+  height: 31px;
+  background-color: #643a79;
+  border: 1px solid #643a79;
+  border-radius: 3px;
+}
+header button {
+  width: 293px;
+  height: 70px;
+  background-color: #eb7d4b;
+  border: 1px solid #eb7d4b;
+  border-radius: 3px;
+  font-family: "Titillium Web-Semi Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.19px;
+  letter-spacing: 0.27px;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 54px;
+  margin-bottom: 145px;
+}
+header .header-button {
+  text-align: center;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #e65c1d;
+}
+.header-title {
+  width: 906px;
+  height: 88px;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48.82px;
+  text-align: center;
+  margin-top: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services {
+  margin-top: -2.1rem;
+  height: 770px;
+  width: auto;
+  background-color: #17c2a4;
+  text-align: center;
+}
+.services img {
+  max-width: 70%;
+  max-height: 70%;
+}
+.services h1 {
+  padding-top: 119px;
+  font-family: "Titillium Web";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 29.91px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+.services p {
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: 0.36px;
+}
+.services h2 {
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+  color: #ffffff;
+  padding-top: 60px;
+}
+.services hr {
+  width: 87px;
+  height: 4px;
+  border: none;
+  background-color: #14a58c;
+}
+.serv-img {
+  display: inline-block;
+  text-align: center;
+  width: 192px;
+  height: 295px;
+  padding-top: 83px;
+  padding-left: 146px;
+  padding-bottom: 128px;
+}
+.servs-img {
+  padding-left: 0;
+}
+.reviews {
+  background-color: #d74680;
+  margin-top: -2.1rem;
+}
+.reviews h1 {
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 29.91px;
+  text-transform: uppercase;
+  padding-top: 119px;
+  text-align: center;
+}
+.reviews-header {
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 0;
+}
+.reviews-text {
+  display: inline-flex;
+}
+.reviews hr {
+  width: 87px;
+  height: 4px;
+  border: none;
+  background-color: #b73c6d;
+}
+.flex-container {
+  padding-top: 82px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container img {
+  padding-right: 48px;
+  float: left;
+}
+.flex-container p {
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 21px;
+  line-height: 31.2px;
+  font-style: italic;
+}
+.flex-container h2 {
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-left: 144px;
+}
+.flex-container h3 {
+  color: #ffdd99;
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 144px;
+}
+.flex-3 {
+  padding-top: 158px;
+  margin-bottom: 129px;
+}
+.flex-element {
+  width: 470px;
+  margin-left: 171px;
+}
+.flex-2 {
+  margin-left: 117px;
+}
+.flex-4 {
+  margin-left: 117px;
+  padding-top: 158px;
+  margin-bottom: 129px;
+}
+.git {
+  height: auto;
+  margin-top: -2.1rem;
+  background-color: #3c5499;
+  padding-left: 25px;
+}
+.git h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 29.91px;
+  text-transform: uppercase;
+  padding-top: 120px;
+  padding-right: 25px;
+}
+.git p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Titillium Web";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 48px;
+}
+.git-form {
+  padding-top: 74px;
+  text-align: center;
+}
+.git hr {
+  width: 87px;
+  height: 4px;
+  border: none;
+  background-color: #273a71;
+}
+.label {
+  display: inline-block;
+  padding-right: 32px;
+}
+.label-area {
+  display: block;
+  padding-top: 27px;
+}
+.form-input {
+  width: 414px;
+  height: 56px;
+  background-color: #273a71;
+  border: 1px solid #273a71;
+  border-radius: 3px;
+  padding-left: 25px;
+}
+.area {
+  width: 885px;
+  height: 200px;
+  background-color: #273a71;
+  padding-left: 25px;
+  padding-top: 24px;
+  border: 1px solid #273a71;
+  border-radius: 3px;
+}
+.btn {
+  width: 293px;
+  height: 70px;
+  background-color: #30bae7;
+  border: 1px solid #30bae7;
+  border-radius: 3px;
+  color: #ffffff;
+  font-family: "Titillium Web - Semi Bold";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.19px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #18a0cc;
+}
+.button-git {
+  padding-top: 59px;
+  margin-right: 25px;
+  padding-bottom: 143px;
+}
+.contact {
+  width: auto;
+  background-color: #344b8e;
+}
+.contact a {
+  color: #ffffff;
+  font-family: "Titillium Web - Semi Bold";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.91px;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: #30bae7;
+}
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 112px;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-el-1 {
+  margin-left: 251px;
+}
+.flex-el-7 {
+  margin-right: 251px;
+}
+
